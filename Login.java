@@ -126,27 +126,8 @@ public class Login extends JPanel {
 
 
                     firstFrame.swapCards(MainScreen.class.toString());
-                    File file1 = new File(String.format("C:/%s/"+"game1.csv",ime1));
-                    File file2 = new File(String.format("C:/%s/"+"game2.csv",ime1));
-                    File file3 = new File(String.format("C:/%s/"+"game3.csv",ime1));
-                    File file4 = new File(String.format("C:/%s/"+"game4.csv",ime1));
-
-                    FileWriter writer1 = null;
-                    FileWriter writer2 = null;
-                    FileWriter writer3 = null;
-                    FileWriter writer4 = null;
-                    try {
-                        writer1 = new FileWriter(file1);
-                        writer2 = new FileWriter(file2);
-                        writer3 = new FileWriter(file3);
-                        writer4 = new FileWriter(file4);
-                        writer1.close();
-                        writer2.close();
-                        writer3.close();
-                        writer4.close();
-                    } catch (IOException ex) {
-                        throw new RuntimeException(ex);
-                    }
+                   
+                    
 
 
 
